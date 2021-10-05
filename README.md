@@ -1,6 +1,6 @@
 # Armando Parra
 
-My React Todo App created using https://www.youtube.com/watch?v=Dorf8i6lCuk&t=5298s
+The React Todo App I created using https://www.youtube.com/watch?v=Dorf8i6lCuk&t=5298s
 
 # Getting Started with Create React App
 
