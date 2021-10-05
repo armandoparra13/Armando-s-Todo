@@ -1,3 +1,7 @@
+# Armando Parra
+
+My React Todo App created using https://www.youtube.com/watch?v=Dorf8i6lCuk&t=5298s.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
