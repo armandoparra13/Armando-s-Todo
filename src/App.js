@@ -5,17 +5,17 @@ import { Route, Switch } from "react-router-dom";
 import AllMeetupsPage from "./pages/AllMeetups";
 import NewMeetupPage from "./pages/NewMeetup";
 import FavoritesPage from "./pages/Favorites";
-import MainNavigation from "./components/layout/MainNavigation";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
-    <div>
+    <Layout>
       {/* <h1>My Todos</h1>
       <Todo text='Learn React' />
       <Todo text='Master React' />
       <Todo text='Explore the full React course' /> */}
 
-      <MainNavigation />
+      
       <Switch>
         <Route path="/" exact={true}>
           <AllMeetupsPage />
@@ -27,7 +27,7 @@ function App() {
           <FavoritesPage />
         </Route>
       </Switch>
-    </div>
+    </Layout>
   );
 }
 
